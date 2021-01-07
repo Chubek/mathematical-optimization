@@ -4,7 +4,7 @@ class Quadrature:
         self.func = func #the lambda function you want to integrate
         self.a = a #lower limit
         self.b = b #upper limit
-        self.s = s #current value of integral
+        self.s = 0 #current value of integral
 
     def next(self, n, x): #n is the current level of refinement
 
